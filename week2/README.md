@@ -200,6 +200,10 @@ Three hosts up: `10.0.0.1`, `10.0.0.2` (Kali itself), `10.0.0.3`.
 5. Review SPF (consider `-all`) and publish DKIM and DMARC.
 6. Limit the REST API where not needed; use a contact form instead of a plain email.
 7. On the lab host: bind PostgreSQL to localhost, restrict SMB/RPC with the firewall, close VMware auth ports when idle.
+Wroking on optional labs now...
+![Future labs](db.png)
+![Future labs](ml.png)
+
 
 ## 7. Conclusion
 
