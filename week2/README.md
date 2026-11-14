@@ -49,7 +49,7 @@ This report covers Phase 1 (Footprinting and Reconnaissance) and Phase 2 (Networ
 whois networkwalks.com
 ```
 
-![whois](screenshots/01-whois.png)
+![whois](01-whois.png)
 
 - Registrar: GoDaddy.com, LLC (IANA ID 146)
 - Created 2019-11-06, updated 2025-11-12, expires 2027-11-06
@@ -64,7 +64,7 @@ whois networkwalks.com
 whatweb networkwalks.com
 ```
 
-![whatweb](screenshots/02-whatweb.png)
+![whatweb](02-whatweb.png)
 
 - HTTP 301 redirects to HTTPS (200 OK)
 - Apache, WordPress 7.1.4, WordPress Download Manager 3.3.76, jQuery 3.7.1, Bootstrap, Google Tag Manager
@@ -78,7 +78,7 @@ whatweb networkwalks.com
 nslookup networkwalks.com
 ```
 
-![nslookup](screenshots/03-nslookup.png)
+![nslookup](03-nslookup.png)
 
 Resolves to `192.232.216.135` via 8.8.8.8.
 
@@ -88,7 +88,7 @@ Resolves to `192.232.216.135` via 8.8.8.8.
 curl -I https://networkwalks.com
 ```
 
-![curl](screenshots/04-curl.png)
+![curl](04-curl.png)
 
 - `HTTP/1.1 200 OK`, `Server: Apache`
 - `Permissions-Policy` and `Referrer-Policy: no-referrer-when-downgrade` set
@@ -102,7 +102,7 @@ curl -I https://networkwalks.com
 wafw00f https://networkwalks.com
 ```
 
-![wafw00f](screenshots/05-wafw00f.png)
+![wafw00f](05-wafw00f.png)
 
 Site is behind a **ModSecurity (SpiderLabs)** WAF (2 requests).
 
@@ -112,7 +112,7 @@ Site is behind a **ModSecurity (SpiderLabs)** WAF (2 requests).
 dnsrecon -d networkwalks.com
 ```
 
-![dnsrecon](screenshots/06-dnsrecon.png)
+![dnsrecon](06-dnsrecon.png)
 
 | Record | Value |
 |---|---|
@@ -138,7 +138,7 @@ dnsrecon -d networkwalks.com
 ip a
 ```
 
-![ip a](screenshots/07-ip-a.png)
+![ip a](07-ip-a.png)
 
 Kali `eth0` = `10.0.0.2/24` (MAC 08:00:27:c3:fb:76), so the subnet is `10.0.0.0/24`.
 
@@ -150,7 +150,7 @@ Zenmap profile: **Intense scan**
 nmap -T4 -A -v 10.0.0.2/24
 ```
 
-![zenmap hosts](screenshots/08-zenmap-ports.png)
+![zenmap hosts](08-zenmap-ports.png)
 
 Three hosts up: `10.0.0.1`, `10.0.0.2` (Kali itself), `10.0.0.3`.
 
@@ -164,7 +164,7 @@ Three hosts up: `10.0.0.1`, `10.0.0.2` (Kali itself), `10.0.0.3`.
 | 912/tcp | open | vmware-auth | VMware Authentication Daemon 1.0 |
 | 5432/tcp | open | postgresql | PostgreSQL DB |
 
-![nmap output](screenshots/09-nmap-output.png)
+![nmap output](09-nmap-output.png)
 
 995 other TCP ports filtered. MAC `52:54:00:12:35:00` is a QEMU virtual NIC; OS detection was unreliable (VirtualBox/Slirp/QEMU guesses). This fits the VirtualBox virtual gateway in front of a Windows host running VMware services, PostgreSQL and SMB.
 
