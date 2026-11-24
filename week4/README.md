@@ -1,23 +1,9 @@
 ![Networkwalks x Mediroza — Penetration Testing Report](cover_banner.png)
-<div align="center">
 
-# 🔓 Password Cracking Lab — JTR & NetworkWalks Tools
-
-### Week 3 · Project Modules 1 & 2 — Cybersecurity & Ethical Hacking
-
-![Status](https://img.shields.io/badge/status-complete-c0141c?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-Kali%20Linux%20%7C%20Windows-222222?style=for-the-badge)
-![Tool](https://img.shields.io/badge/tool-John%20the%20Ripper-c0141c?style=for-the-badge)
-![Tool](https://img.shields.io/badge/tool-NetworkWalks-c0141c?style=for-the-badge)
-
-*Training lab by [NetworkWalks Academy](https://networkwalks.com) — completed and documented for submission.*
-
-</div>
 # Networkwalks Internship — Week 4 Penetration Test
 ## Target: Mediroza General Hospital (medirozahospital.com)
 
 > Conducted in a controlled training environment under written client authorization (Networkwalks Penetration Testing Project, Week 4). Techniques documented here were performed **only** against the authorized lab target and must never be used against a system without explicit written permission.
-
 
 ## Overview
 
@@ -65,19 +51,12 @@ Four milestones, completed in order:
 
 ## Deliverables
 
-- **[Week 4 Penetration Testing Report](https://claude.ai/artifact/PJBJCVfEJJx31D58kFWek2)** — full report (Executive Summary, Scope & Methodology, Findings & Proof of Exploitation, Risk Rating, Recommendations), styled with Networkwalks/Mediroza branding.
+- **`Networkwalks_Week4_Penetration_Testing_Report_Mediroza.pdf`** — the submission-ready report, fully laid out in the Networkwalks/Mediroza brand (cover, milestone-coded finding pages, risk table, remediation) — 10 pages, matching the Week 4 project deck's colors, logo placement, and layout.
+- **[Editable working doc](https://claude.ai/artifact/PJBJCVfEJJx31D58kFWek2)** — the same report content as a live Claude Doc, for comments/edits before final submission.
 - `README.md` — this file.
-- `cover_banner.png` — branded cover graphic (Networkwalks + Mediroza logos, brand colors) used in the report.
+- `cover_banner.png` — branded cover graphic (Networkwalks + Mediroza logos, brand colors).
 - Screenshots of each milestone (recon, SQLi bypass, crawl, cracking, recovered PDFs, directory listing, exposed SQL dump) retained as evidence.
 
 ## Disclaimer
 
 This work was performed strictly within the scope of an authorized educational penetration-testing exercise (Networkwalks Internship, Week 4) against a designated lab target. No part of this document or the techniques it describes should be applied to any system without explicit, documented, written permission from its owner.
-
-<div align="center">
-
-
-**Zohaib Khan** · 
-🌐 [https://iamzohaibsoc.github.io/zohaibkhan/](https://iamzohaibsoc.github.io/zohaibkhan/)
-
-</div>
