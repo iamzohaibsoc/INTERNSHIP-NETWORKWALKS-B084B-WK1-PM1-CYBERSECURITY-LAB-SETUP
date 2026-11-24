@@ -159,7 +159,8 @@ on systems and files you own or are explicitly authorized to test. Unauthorized 
 
 <div align="center">
 
-**NetworkWalks Academy** · Cybersecurity & Ethical Hacking Training
-📧 info@networkwalks.com · 🌐 [networkwalks.com](https://networkwalks.com)
+
+**Zohaib Khan** · 
+🌐 [https://iamzohaibsoc.github.io/zohaibkhan/](https://iamzohaibsoc.github.io/zohaibkhan/)
 
 </div>
